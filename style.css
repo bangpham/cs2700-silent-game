@@ -1,0 +1,124 @@
+/*blocks*/
+.block{
+    position:relative;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+#square { 
+    width: 50px; 
+    height: 0px; 
+    background: #16a085; 
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+#triangle1 { 
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 50px 50px 50px;
+    border-color: transparent transparent #f1c40f transparent; 
+
+}
+
+#triangle2 { 
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 50px 0 50px 50px;
+    border-color: transparent transparent transparent #e74c3c;
+    top:-100px;
+}
+
+#triangle3 {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 50px 50px 0 50px;
+    border-color: #007bff transparent transparent transparent;
+    top:-100px;
+}
+
+#triangle4 { 
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 50px 50px;
+    border-color: transparent transparent #d63294 transparent;
+    top:-300px;
+}
+
+#triangle5 {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 50px 50px 50px 0;
+    border-color: transparent #69dcf0 transparent transparent;
+    top: -350px;
+}
+
+#parallelogram {
+	width: 50px;
+	height: 20px;
+	-webkit-transform: skew(-45deg);
+	   -moz-transform: skew(-45deg);
+	     -o-transform: skew(-45deg);
+	background: #e67e22;
+    top:-600px;
+}
+
+/*Page layout*/
+body{
+	/**padding has to be the same as sidebar's width*/
+    padding-left:20%;
+    margin:0;
+}
+#sidebar{
+   position:fixed;
+   height:100%; 
+   width: 20%;
+   top:0;
+   left:0;
+   background:#1FAB91; 
+   z-index: 0;
+}
+#canvas1 {
+    background-color: #CCEDE7;
+<<<<<<< HEAD
+    height:250px;
+    background-attachment: fixed;
+=======
+    height:600px;
+>>>>>>> bang
+}
+
+#canvas2 {
+    background-color: #C5E3DE;
+<<<<<<< HEAD
+    height:250px;
+=======
+    height:600px;
+>>>>>>> bang
+}
+
+#canvas3 {
+    background-color: #BCD4CF;
+<<<<<<< HEAD
+    height:250px;
+=======
+    height:600px;
+>>>>>>> bang
+}
+
+@media (min-width:600px) {
+   .sidebar {
+     width: 250px;
+   }
+ }
